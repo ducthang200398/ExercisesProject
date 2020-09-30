@@ -1,0 +1,185 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;   
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px 0px 10px 0px;
+  color: #3c4d6b;
+  font-weight: 500;
+}
+.pd-1{
+  margin:0 1px 0 1px;
+}
+.fa-shopping-cart,.fa-info-circle{
+  color: #82E782;
+}
+.table-css{
+  background: #ffff;
+
+}
+.search{
+  max-width: 200px;
+}
+.mt-1{
+  margin-top: 10px;
+}
+.MuiFormControl-root{
+  background:#ffff;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+a:hover{
+  text-decoration: none;
+  list-style-type: none;
+  color: #f83e14;
+}
+a{
+  color: #15549A;
+}
+.fa-id-card,.fa-heartbeat,.fa-phone-square-alt{
+  font-size: 2rem;
+}
+.active{
+  color: #f83e14;
+  border-bottom: 2px solid #f83e14;
+}
+.login-res{
+  font-size: 1rem;
+}
+.login{
+  width: 100%;
+  height: 100%;
+}
+.form-ask-pass{
+  position: relative;
+}
+.form-ask-pass-info{
+  position: absolute;
+  min-width: 20rem;
+  z-index: 999;
+  background:#ffff;
+  border-radius: 10px;
+  margin-left: 20px;
+  display: none;
+  margin:10px;
+}
+.form-ask-pass:hover .form-ask-pass-info{
+  display: inherit;
+}
+button:focus {
+  outline: none;
+  outline: none !important;
+}
+.col_info a span:nth-child(1) {
+  background-color: #3a5596;
+  background-image: linear-gradient(90deg, #3a5596 34%, #4b6eb9 100%);
+  border-radius: 50px;
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  height: 52px;
+  z-index: 1;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+.col_info a span:nth-child(2) {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #16549c;
+  font-weight: bold;
+  background-color: #ffffff;
+  background-image: linear-gradient(90deg, #ffffff 34%, #ececec 100%);
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11)0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+.col_info a span:nth-child(2)::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background-image: url(./image/btn_ft1.png); */
+}
+.box_ft {
+  background-color: #3a5597;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border-radius: 15px;
+  max-height: 116px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.16);
+}
+.box_ft .txt {
+  width: 98%;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+  margin-top: -8px;
+  font-weight: 900;
+  font-size: 17px;
+  white-space: nowrap;
+}
+.box_ft .phone_hotline {
+  color: #fff;
+  font-size: 3rem;
+  position: relative;
+  margin-top: 5px;
+}
+.box_ft .phone_hotline::after {
+  content: '';
+  /* background-image: url(./image/icon_hotline.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -44px;
+  top: 7px;
+}
+.block_span{
+  color: #3a5596;
+    font-weight: bold;
+    font-size: 1rem;
+}
